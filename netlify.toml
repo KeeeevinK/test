@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+
+[[redirects]]
+  from = "/*"
+  to = "https://lexora-english-dictionary.workspace-609631.chatgpt.site/:splat"
+  status = 200
+  force = true
